@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
     <script src="https://kit.fontawesome.com/c8decf2c48.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -94,19 +95,5 @@
     <footer>
         <p>&copy; 2024 Aakash Sagar | <a href="mailto:your@email.com">aakashSagar360@email.com</a></p>
     </footer>
-    <script>
-        var tablinks = document.getElementsByClassName("tab-links");
-        var tabcontents = document.getElementsByClassName("tab-contents");
-        function opentab(tabname){
-            for(tablink of tablinks){
-                tablink.classList.remove("active-link");
-            }
-            for(tabcontent of tabcontents){
-                tabcontent.classList.remove("active-tab");
-            }
-            event.currentTarget.classList.add("active-link");
-            document.getElementById(tabname).classList.add("active-tab");
-        }
-    </script>
 </body>
 </html>
