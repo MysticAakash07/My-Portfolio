@@ -13,3 +13,21 @@ function opentab(tabname) {
     event.currentTarget.classList.add("active-link");
     document.getElementById(tabname).classList.add("active-tab");
 }
+
+function openmenu() {
+    var sidemenu = document.getElementById("sidemenu");
+    if (sidemenu) {
+        sidemenu.style.right = "0";
+    } else {
+        console.error("Error: sidemenu element not found.");
+    }
+}
+
+function closemenu() {
+    var sidemenu = document.getElementById("sidemenu");
+    if (sidemenu) {
+        sidemenu.style.right = "-150px"; // Use the same value as openmenu
+    } else {
+        console.error("Error: sidemenu element not found.");
+    }
+}
