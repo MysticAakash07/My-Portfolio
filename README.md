@@ -14,12 +14,12 @@ I am a passionate web developer with a focus on creating interactive and user-fr
 
 ## Projects
 
-### Project 1: [Project Name 1](link-to-project-1)
+### Project 1: [Auth App](link-to-project-1)
 Description of the project. Include technologies used, your role, and any challenges or achievements.
 
 ![Project 1 Screenshot](link-to-screenshot-1)
 
-### Project 2: [Project Name 2](link-to-project-2)
+### Project 2: [Protfolio](link-to-project-2)
 Description of the project. Highlight key features and your contributions.
 
 ![Project 2 Screenshot](link-to-screenshot-2)
