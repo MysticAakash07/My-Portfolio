@@ -143,7 +143,7 @@
                             <a  href="images/my-cv.pdf" class="btn btn2" download>Download CV</a>
                         </div>
                         <div class="contact-right">
-                            <form action="">
+                            <form action="" name="submit-to-google-sheet">
                                 <input type="text" name="Name" placeholder="Your Name" required>
                                 <input type="email" name="email" placeholder="Your Email" required>
                                 <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
@@ -159,5 +159,17 @@
             <p>&copy; 2024 Mystic. Made with <i class="fa-solid fa-heart"></i> by Aakash | <a href="mailto:your@email.com">aakashsagar360@gmail.com</a></p>
         </div>
     </footer>
+
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbw09fTHEE1eI9labXz_p7_iWL2lo0JMXX3_9arTfRO4qGuo_-6Wcw3h0qu2bEWErZuZZA/exec'
+        const form = document.forms['submit-to-google-sheet']
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => console.log('Success!', response))
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
 </body>
 </html>
