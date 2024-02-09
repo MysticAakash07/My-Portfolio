@@ -42,11 +42,11 @@ Integration of a contact form for seamless communication.
 
 ## Contact
 
-Feel free to reach out to me at [aakashsagar360@gmail.com](mailto:aakashsagar360@gmail.com) or connect with me on [LinkedIn](https://www.linkedin.com/in/your-username/).
+Feel free to reach out to me at [aakashsagar360@gmail.com](mailto:aakashsagar360@gmail.com) or connect with me on [LinkedIn](https://www.linkedin.com/in/mysticaakash/).
 
 ## Let's Connect
 
-- [LinkedIn](https://www.linkedin.com/in/your-username/)
-- [GitHub](https://github.com/your-username)
+- [LinkedIn](https://www.linkedin.com/in/mysticaakash/)
+- [GitHub](https://github.com/MysticAakash07)
 
 Thank you for visiting my portfolio! 🚀
