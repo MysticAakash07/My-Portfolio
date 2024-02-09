@@ -14,14 +14,20 @@ I am a passionate web developer with a focus on creating interactive and user-fr
 
 ## Projects
 
-### Project 1: [Auth App](link-to-project-1)
-Description of the project. Include technologies used, your role, and any challenges or achievements.
-
+### Project 1: [Auth App](https://github.com/MysticAakash07/Auth-App)
+Auth App, Authentication app built on Android Studio with Firebase as Backend
+- Objective of the Project : To gain knowledge and update my skills in mobile app development.
+- Front-end : The front-end is built using Java and XML, and features nine pages for user interaction.
+- Back-end : The back-end for the Auth app is built using Google Firebase, which provides a platform for
+developing and hosting mobile and web applications
 ![Project 1 Screenshot](link-to-screenshot-1)
 
-### Project 2: [Protfolio](link-to-project-2)
-Description of the project. Highlight key features and your contributions.
-
+### Project 2: [Protfolio](https://github.com/MysticAakash07/My-Portfolio)
+Portfolio: Personal Showcase of Skills and Projects
+- Objective: To establish an online presence and display a diverse range of projects and skills.
+- Details: Created a responsive portfolio website using HTML, CSS, and JavaScript.
+- Features: Interactive design to engage visitors. Sections highlighting skills, projects, and achievements.
+Integration of a contact form for seamless communication.
 ![Project 2 Screenshot](link-to-screenshot-2)
 
 ## Skills
@@ -31,6 +37,7 @@ Description of the project. Highlight key features and your contributions.
 - Responsive Web Design
 - Git and GitHub
 - UI/UX Design
+- AWS Web Hosting 
 - (Add more skills as needed)
 
 ## Contact
