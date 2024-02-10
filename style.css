@@ -242,7 +242,6 @@ nav ul li a:hover::after{
 }
 .btn:hover{
     background-color: #ff004f;
-
 }
 
 /* ------------contact--------------- */
@@ -278,6 +277,7 @@ nav ul li a:hover::after{
 .btn.btn2{
     display: inline-block;
     background: #ff004f;
+    cursor: pointer;
 }
 .contact-right form{
     width: 100%;
@@ -376,4 +376,9 @@ nav .fa-solid{
     .copyright{
         font-size: 14px;
     }
+}
+#msg{
+    color: #61b752;
+    margin-top: -40px;
+    display: block;
 }

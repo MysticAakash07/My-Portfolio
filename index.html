@@ -12,7 +12,7 @@
     <header id= "header">
         <div class="container">
             <nav>
-                <img src="images/logo.png" alt="logo" class="logo">
+                <img src="images/my_logo.png" alt="logo" class="logo">
                 <ul id="sidemenu">
                     <li><a href="#header">Home</a></li>
                     <li><a href="#about">About</a></li>
@@ -39,7 +39,8 @@
                     </div>
                     <div class="about-col-2">
                         <h1 class="sub-title">About Me</h1>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga ipsa neque, sint quas pariatur deleniti perspiciatis aliquid commodi illum assumenda omnis voluptates reprehenderit unde sed consequuntur quia animi accusantium at.</p>
+                        <p>Motivated MCA student with a solid grasp of computer science fundamentals, eager to apply classroom
+                            learning to real-world IT challenges</p>
                         <div class="tab-titles">
                             <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
                             <p class="tab-links" onclick="opentab('education')">Education</p>
@@ -69,7 +70,7 @@
             </div>
             </section>
             <!----------------- Services----------->
-            <div id="services">
+            <!-- <div id="services">
                 <div class="container">
                     <h1 class="sub-title">My Services</h1>
                     <div class="services-list">
@@ -93,7 +94,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> -->
             <!-- --------------portflio------------ -->
             <div id="portfolio">
                 <div class="container">
@@ -102,9 +103,9 @@
                         <div class="work">
                             <img src="images/work-1.png" alt="workspace image">
                             <div class="layer">
-                                <h3>Project 1</h3>
-                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum sequi sunt delectus tenetur non esse saepe ipsam dolore itaque quo optio, neque harum dignissimos dolorum necessitatibus repellendus voluptates eveniet. Sed?</p>
-                                <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                                <h3>Auth App</h3>
+                                <p>Auth App, Authentication app built on Android Studio with Firebase as Backend</p>
+                                <a href="https://github.com/MysticAakash07/Auth-App"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                             </div>
                         </div>
                         <div class="work">
@@ -143,12 +144,13 @@
                             <a  href="images/my-cv.pdf" class="btn btn2" download>Download CV</a>
                         </div>
                         <div class="contact-right">
-                            <form action="" name="submit-to-google-sheet">
+                            <form name="submit-to-google-sheet">
                                 <input type="text" name="Name" placeholder="Your Name" required>
                                 <input type="email" name="email" placeholder="Your Email" required>
                                 <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
                                 <button type="submit" class="btn btn2">Submit</button>
                             </form>
+                            <span id="msg"></span>
                         </div>
                     </div>
                 </div>
@@ -163,11 +165,17 @@
     <script>
         const scriptURL = 'https://script.google.com/macros/s/AKfycbw09fTHEE1eI9labXz_p7_iWL2lo0JMXX3_9arTfRO4qGuo_-6Wcw3h0qu2bEWErZuZZA/exec'
         const form = document.forms['submit-to-google-sheet']
-      
+        const msg = document.getElementById("msg")
         form.addEventListener('submit', e => {
           e.preventDefault()
           fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-            .then(response => console.log('Success!', response))
+            .then(response => { 
+                msg.innerHTML = "Message sent successfully!!"
+                setTimeout(function() {
+                    msg.innerHTML = ""
+                },3000)
+                form.reset()
+            })
             .catch(error => console.error('Error!', error.message))
         })
       </script>

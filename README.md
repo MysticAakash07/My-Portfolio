@@ -34,7 +34,7 @@ Integration of a contact form for seamless communication.
 
 - HTML5, CSS3
 - JavaScript (ES6+)
-- Responsive Web Design
+- Figma Designing
 - Git and GitHub
 - UI/UX Design
 - AWS Web Hosting 
