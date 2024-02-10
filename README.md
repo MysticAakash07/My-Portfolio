@@ -38,7 +38,6 @@ Integration of a contact form for seamless communication.
 - Git and GitHub
 - UI/UX Design
 - AWS Web Hosting 
-- (Add more skills as needed)
 
 ## Contact
 
