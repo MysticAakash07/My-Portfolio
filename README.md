@@ -38,7 +38,7 @@ Integration of a contact form for seamless communication.
 - Figma Designing
 - Git and GitHub
 - UI/UX Design
-- AWS Web Hosting 
+- AWS
 
 ## Contact
 
