@@ -28,7 +28,6 @@ Portfolio: Personal Showcase of Skills and Projects
 - Details: Created a responsive portfolio website using HTML, CSS, and JavaScript.
 - Features: Interactive design to engage visitors. Sections highlighting skills, projects, and achievements.
 Integration of a contact form for seamless communication.
-![Project 2 Screenshot](link-to-screenshot-2)
 [Link](https://my-portfolio-two-virid-66.vercel.app/#)
 
 ## Skills
