@@ -22,7 +22,7 @@ Auth App, Authentication app built on Android Studio with Firebase as Backend
 developing and hosting mobile and web applications
 ![Project 1 Screenshot](link-to-screenshot-1)
 
-### Project 2: [Protfolio](https://github.com/MysticAakash07/My-Portfolio)
+### Project 2: [Protfolio](https://my-portfolio-two-virid-66.vercel.app/#)
 Portfolio: Personal Showcase of Skills and Projects
 - Objective: To establish an online presence and display a diverse range of projects and skills.
 - Details: Created a responsive portfolio website using HTML, CSS, and JavaScript.
