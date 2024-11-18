@@ -41,7 +41,7 @@ Integration of a contact form for seamless communication.
 
 ## Contact
 
-Feel free to reach out to me at [aakashsagar360@gmail.com](mailto:aakashsagar360@gmail.com) or connect with me on [LinkedIn](https://www.linkedin.com/in/mysticaakash/).
+Feel free to reach out to me at [rahulsagar460@gmail.com](mailto:rahulsagar460@gmail.com) or connect with me on [LinkedIn](https://www.linkedin.com/in/mysticaakash/).
 
 ## Let's Connect
 
