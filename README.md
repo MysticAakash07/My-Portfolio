@@ -1,51 +1,85 @@
 # Aakash's Portfolio
 
-Welcome to my portfolio! This is a showcase of my skills, projects, and experiences as a web developer.
+Welcome to my portfolio! This is a showcase of my skills, projects, and experiences as a web developer and aspiring IT professional.
 
 ## About Me
 
-I am a passionate web developer with a focus on creating interactive and user-friendly websites. My skills include:
+I am a passionate developer with a strong foundation in computer science and a focus on creating interactive, user-friendly applications. My areas of expertise include:
 
-- Frontend Development
-- HTML, CSS, JavaScript
-- Responsive Design
-- Version Control (Git)
-- and more...
+- **Programming Languages:** C, C++, Java, Python
+- **Web Technologies:** HTML, CSS, JavaScript, Bootstrap, EJS
+- **Frameworks & Libraries:** React, Express, RESTful Routing
+- **Databases:** MongoDB, Firebase
+- **Machine Learning:** TensorFlow, Keras, Pandas, Matplotlib
+- **Tools & Technologies:** Git, GitHub, Streamlit, Mongoose
+- **Design:** Figma
+- **Mobile App Development:** Android Studio
+- **Data Tools:** Excel, PowerPoint
 
 ## Projects
 
-### Project 1: [Auth App](https://github.com/MysticAakash07/Auth-App)
-Auth App, Authentication app built on Android Studio with Firebase as Backend
-- Objective of the Project : To gain knowledge and update my skills in mobile app development.
-- Front-end : The front-end is built using Java and XML, and features nine pages for user interaction.
-- Back-end : The back-end for the Auth app is built using Google Firebase, which provides a platform for
-developing and hosting mobile and web applications
-![Project 1 Screenshot](link-to-screenshot-1)
+### Project 1: [YelpCamp](https://github.com/MysticAakash07/YelpCamp)
 
-### Project 2: [Protfolio](https://my-portfolio-two-virid-66.vercel.app/#)
-Portfolio: Personal Showcase of Skills and Projects
-- Objective: To establish an online presence and display a diverse range of projects and skills.
-- Details: Created a responsive portfolio website using HTML, CSS, and JavaScript.
-- Features: Interactive design to engage visitors. Sections highlighting skills, projects, and achievements.
-Integration of a contact form for seamless communication.
-[Link](https://my-portfolio-two-virid-66.vercel.app/#)
+- **Objective**: Engineered a dynamic full-stack web application for browsing, adding, and reviewing campgrounds.  
+- **Technologies**: Node.js, Express, MongoDB, and EJS  
+- **Features**:  
+  - Image uploads managed via Cloudinary.  
+  - Mapping campground locations using the MapTiler API.  
+  - User authentication with Passport.js and input sanitization via Express-Mongo-Sanitize.  
+  - Mobile-responsive design using Bootstrap.  
+  - CRUD operations for campgrounds and reviews.  
+- **Deployment**: [View YelpCamp](https://yelpcamp-8uao.onrender.com/)
+
+### Project 2: [Auth App](https://github.com/MysticAakash07/Auth-App)
+
+- **Objective**: Developed an Android-based authentication app to enhance mobile app development skills.  
+- **Technologies**: Java, XML, Firebase  
+- **Features**:  
+  - Intuitive interface with nine interactive screens for user registration, login, and data validation.  
+  - Backend functionality powered by Firebase.
+
+### Project 3: [Portfolio](https://my-portfolio-two-virid-66.vercel.app/#)
+
+- **Objective**: To establish an online presence and display a diverse range of projects and skills.  
+- **Technologies**: HTML, CSS, JavaScript  
+- **Features**:  
+  - Responsive design optimized for various screen sizes.  
+  - Interactive sections showcasing skills, projects, and achievements.  
+  - Integrated contact form for seamless communication.  
+- **Deployed Link**: [View Portfolio](https://my-portfolio-two-virid-66.vercel.app/#)
+
+### Project 4: [Cat-Dog Image Classifier using CNN](https://github.com/MysticAakash07/Cat-Dog-Image-Classifier)
+
+- **Objective**: Built a machine learning model to classify images of cats and dogs.  
+- **Technologies**: TensorFlow, Keras, Streamlit  
+- **Features**:  
+  - Achieved 73% accuracy in differentiating between cat and dog images.  
+  - Integrated classifier into a Streamlit web application for user-friendly image uploads and prediction results.
+- **Deployed Link**: [View Image Classifier](https://huggingface.co/spaces/Mystic-Aakash/Cat-Dog-Image-Classifier-using-CNN)
 
 ## Skills
 
-- HTML5, CSS3
-- JavaScript (ES6+)
-- Figma Designing
-- Git and GitHub
-- UI/UX Design
-- AWS
+- **Programming Languages:** C, C++, Java, Python
+- **Web Development:** HTML5, CSS3, JavaScript (ES6+), Bootstrap
+- **Frameworks:** React, Express.js
+- **Databases:** MongoDB, Firebase
+- **Version Control:** Git, GitHub
+- **Design Tools:** Figma
+- **Machine Learning:** TensorFlow, Keras, Pandas, Matplotlib
+- **Mobile Development:** Android Studio
 
 ## Contact
 
-Feel free to reach out to me at [aakashsagar360@gmail.com](mailto:aakashsagar360@gmail.com) or connect with me on [LinkedIn](https://www.linkedin.com/in/mysticaakash/).
+Feel free to reach out to me:
+- **Email:** [rahulsagar460@gmail.com](mailto:rahulsagar460@gmail.com)
+- **LinkedIn:** [Mystic Aakash](https://www.linkedin.com/in/mysticaakash/)
+- **GitHub:** [MysticAakash07](https://github.com/MysticAakash07)
+- **LeetCode:** [MysticAakash](https://leetcode.com/u/Mystic_Aakash/)
 
 ## Let's Connect
 
 - [LinkedIn](https://www.linkedin.com/in/mysticaakash/)
 - [GitHub](https://github.com/MysticAakash07)
+- [LeetCode](https://leetcode.com/u/Mystic_Aakash/)
 
 Thank you for visiting my portfolio! 🚀
