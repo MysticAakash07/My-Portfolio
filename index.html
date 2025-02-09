@@ -1,86 +1,141 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
-    <script src="https://kit.fontawesome.com/c8decf2c48.js" crossorigin="anonymous"></script>
-</head>
-<body>
-    <header id= "header">
-        <div class="container">
-            <nav>
-                <img src="images/my_logo.png" alt="logo" class="logo">
-                <ul id="sidemenu">
-                    <li><a href="#header">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <!-- <li><a href="#services">Services</a></li> -->
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
-                </ul>
-                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
-            </nav>
-            <div class="header-text">
-                <p>An MCA Student</p>
-                <h1>Hi, I'm <span>Aakash</span> <br> from Nainital</h1>
-            </div>
-        </div>
-    </header>
-    <main>
-        <!-- About me  -->
-        <section id="about">
-            <div class="container">
-                <div class="row">
-                    <div class="about-col-1">
-                        <img src="images/user.png" alt="myphoto">
-                    </div>
-                    <div class="about-col-2">
-                        <h1 class="sub-title">About Me</h1>
-                        <p>Motivated MCA student with a solid grasp of computer science fundamentals, eager to apply classroom
-                            learning to real-world IT challenges</p>
-                        <div class="tab-titles">
-                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
-                            <p class="tab-links" onclick="opentab('education')">Education</p>
-                            <p class="tab-links" onclick="opentab('experience')">Experience</p>
-                        </div>
-                        <div class="tab-contents active-tab" id="skills">
-                            <ul>
-                                <li><span>Programming Languages </span> — C/C++, Java, Python</li>
-                                <li><span>Web Technologies </span> — HTML, CSS, JavaScript, Bootstrap, EJS</li>
-                                <li><span>Frameworks & Libraries </span> — React, Express, RESTful Routing</li>
-                                <li><span>Databases </span> — MongoDB, Firebase</li>
-                                <li><span>Machine Learning </span> — TensorFlow, Keras, Pandas, Matplotlib</li>
-                                <li><span>Tools & Technologies </span> — Git, GitHub, Streamlit, Mongoose</li>
-                                <li><span>Design </span> — Figma</li>
-                                <li><span>Mobile App Development </span> — Android Studio</li>
-                                <li><span>Data Tools </span> — Excel, PowerPoint</li>
-                            </ul>
-                        </div>
-                        <div class="tab-contents" id="education">
-                            <ul>
-                                <li><span>2019 - 2022</span><br>BCA from Kumaun University, Nainital &nbsp;<span>74.03%</span></li>
-                                <li><span>2022 - 2024</span><br>MCA from Graphic Era Hill University, Bhimtal &nbsp; <span>8.95 CGPA</span></li>
-                            </ul>
-                        </div>
-                        <div class="tab-contents" id="experience">
-                            <ul>
-                                <li><span>Software Developer Intern</span>, MangosOrange Services Pvt. Ltd.<span> (06/2023 – 11/2023)</span></li>
-                                <ul class="inner-list">
-                                    <li>Researched and documented e-learning platform design.</li>
-                                    <li>Integrated government schemes and optimized content structure.</li>
-                                    <li>Utilized GitHub and Figma to improve workflow efficiency by 30%.</li>
-                                </ul>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            </section>
-            <!----------------- Services----------->
-            <!-- <div id="services">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>My Portfolio</title>
+		<link rel="stylesheet" href="style.css" />
+		<script src="script.js"></script>
+		<script
+			src="https://kit.fontawesome.com/c8decf2c48.js"
+			crossorigin="anonymous"
+		></script>
+	</head>
+	<body>
+		<header id="header">
+			<div class="container">
+				<nav>
+					<img src="images/my_logo.png" alt="logo" class="logo" />
+					<ul id="sidemenu">
+						<li><a href="#header">Home</a></li>
+						<li><a href="#about">About</a></li>
+						<!-- <li><a href="#services">Services</a></li> -->
+						<li><a href="#projects">Projects</a></li>
+						<li><a href="#contact">Contact</a></li>
+						<i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+					</ul>
+					<i class="fa-solid fa-bars" onclick="openmenu()"></i>
+				</nav>
+				<div class="header-text">
+					<p>An MCA Student</p>
+					<h1>
+						Hi, I'm <span>Aakash</span> <br />
+						from Nainital
+					</h1>
+				</div>
+			</div>
+		</header>
+		<main>
+			<!-- About me  -->
+			<section id="about">
+				<div class="container">
+					<div class="row">
+						<div class="about-col-1">
+							<img src="images/user.png" alt="myphoto" />
+						</div>
+						<div class="about-col-2">
+							<h1 class="sub-title">About Me</h1>
+							<p>
+								Motivated MCA student with a solid grasp of computer science
+								fundamentals, eager to apply classroom learning to real-world IT
+								challenges
+							</p>
+							<div class="tab-titles">
+								<p class="tab-links active-link" onclick="opentab('skills')">
+									Skills
+								</p>
+								<p class="tab-links" onclick="opentab('education')">
+									Education
+								</p>
+								<p class="tab-links" onclick="opentab('experience')">
+									Experience
+								</p>
+							</div>
+							<div class="tab-contents active-tab" id="skills">
+								<ul>
+									<li>
+										<span>Programming Languages </span> — C/C++, Java, Python
+									</li>
+									<li>
+										<span>Web Technologies </span> — HTML, CSS, JavaScript,
+										Bootstrap, EJS
+									</li>
+									<li>
+										<span>Frameworks & Libraries </span> — React, Express,
+										RESTful Routing
+									</li>
+									<li><span>Databases </span> — MongoDB, Firebase</li>
+									<li>
+										<span>Machine Learning </span> — TensorFlow, Keras, Pandas,
+										Matplotlib
+									</li>
+									<li>
+										<span>Tools & Technologies </span> — Git, GitHub, Streamlit,
+										Mongoose
+									</li>
+									<li><span>Design </span> — Figma</li>
+									<li><span>Mobile App Development </span> — Android Studio</li>
+									<li><span>Data Tools </span> — Excel, PowerPoint</li>
+								</ul>
+							</div>
+							<div class="tab-contents" id="education">
+								<ul>
+									<li>
+										<span>2019 - 2022</span><br />BCA from Kumaun University,
+										Nainital &nbsp;<span>74.03%</span>
+									</li>
+									<li>
+										<span>2022 - 2024</span><br />MCA from Graphic Era Hill
+										University, Bhimtal &nbsp; <span>8.95 CGPA</span>
+									</li>
+								</ul>
+							</div>
+							<div class="tab-contents" id="experience">
+								<ul>
+									<li>
+										<span>Software Developer Intern</span>, MangosOrange
+										Services Pvt. Ltd.<span> (06/2023 – 11/2023)</span>
+									</li>
+									<ul class="inner-list">
+										<li>
+											Researched and documented the design of an e-learning
+											platform, improving user experience by integrating
+											government schemes.
+										</li>
+										<li>
+											Developed and structured content into three sections:
+											Introduction, Present Status, and Recommendations for
+											better readability.
+										</li>
+										<li>
+											Worked with the MERN stack, implementing frontend
+											components using React.js and designing APIs with
+											Express.js.
+										</li>
+										<li>
+											Utilized MongoDB for database structuring, GitHub for
+											version control, and Figma for prototyping, improving
+											workflow efficiency by 30%.
+										</li>
+									</ul>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!----------------- Services----------->
+			<!-- <div id="services">
                 <div class="container">
                     <h1 class="sub-title">My Services</h1>
                     <div class="services-list">
@@ -105,91 +160,153 @@
                     </div>
                 </div>
             </div> -->
-            <!-- --------------projects------------ -->
-            <div id="projects">
-                <div class="container">
-                    <h1 class="sub-title">My Projects</h1>
-                    <div class="work-list">
-                        <div class="work">
-                            <img src="images/YelpCamp.png" alt="workspace image">
-                            <div class="layer">
-                                <h3>YelpCamp</h3>
-                                <p>Full-stack web app for managing campgrounds with features like authentication, mapping, and image uploads.</p>
-                                <a href="https://yelpcamp-8uao.onrender.com/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-                            </div>
-                        </div>
-                        <div class="work">
-                            <img src="images/work-2.png" alt="workspace image">
-                            <div class="layer">
-                                <h3>Auth App</h3>
-                                <p>Android authentication app with Firebase backend and interactive UI.</p>
-                                <a href="https://github.com/MysticAakash07/Auth-App" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-                            </div>
-                        </div>
-                        <div class="work">
-                            <img src="images/Cat-Dog-CNN.png" alt="workspace image">
-                            <div class="layer">
-                                <h3>Cat-Dog Classifier</h3>
-                                <p>Machine learning model with 73% accuracy, integrated with Streamlit for image predictions.</p>
-                                <a href="https://huggingface.co/spaces/Mystic-Aakash/Cat-Dog-Image-Classifier-using-CNN" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <a href="https://github.com/MysticAakash07?tab=repositories" target="_blank" class="btn">See more</a>
-                </div>
-            </div>
-            <!-- -------------------------------contact--------------------- -->
-            <div id="contact">
-                <div class="container">
-                    <div class="row">
-                        <div class="contact-left">
-                            <h1 class="sub-title">Contact Me</h1>
-                            <p><i class="fa-solid fa-envelope"></i> rahulsagar460@gmail.com</p>
-                            <p><i class="fa-solid fa-phone"></i> 9410776480</p>
-                            <div class="social-icons">
-                                <a href="https://www.facebook.com/aakash.sagar.10297/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
-                                <a href="https://www.instagram.com/mystic_aakash/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
-                                <a href="https://www.linkedin.com/in/mysticaakash/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
-                                <a href="https://leetcode.com/u/Mystic_Aakash/" target="_blank"><i class="fa-solid fa-code"></i></a>
-                                <a href="https://github.com/MysticAakash07" target="_blank"><i class="fa-brands fa-github"></i></a>
-                            </div>
-                            <a  href="images/my-cv.pdf" class="btn btn2" download>Download CV</a>
-                        </div>
-                        <div class="contact-right">
-                            <form name="submit-to-google-sheet">
-                                <input type="text" name="Name" placeholder="Your Name" required>
-                                <input type="email" name="email" placeholder="Your Email" required>
-                                <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
-                                <button type="submit" class="btn btn2">Submit</button>
-                            </form>
-                            <span id="msg"></span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-    </main>
-    <footer>
-        <div class="copyright">
-            <p>&copy; 2024 Mystic. Made with <i class="fa-solid fa-heart"></i> by Aakash | <a href="mailto:your@email.com">rahulsagar460@gmail.com</a></p>
-        </div>
-    </footer>
+			<!-- --------------projects------------ -->
+			<div id="projects">
+				<div class="container">
+					<h1 class="sub-title">My Projects</h1>
+					<div class="work-list">
+						<div class="work">
+							<img src="images/YelpCamp.png" alt="workspace image" />
+							<div class="layer">
+								<h3>YelpCamp</h3>
+								<p>
+									Full-stack web app for managing campgrounds with features like
+									authentication, mapping, and image uploads.
+								</p>
+								<a href="https://yelpcamp-8uao.onrender.com/" target="_blank"
+									><i class="fa-solid fa-arrow-up-right-from-square"></i
+								></a>
+							</div>
+						</div>
+						<div class="work">
+							<img src="images/work-2.png" alt="workspace image" />
+							<div class="layer">
+								<h3>Auth App</h3>
+								<p>
+									Android authentication app with Firebase backend and
+									interactive UI.
+								</p>
+								<a
+									href="https://github.com/MysticAakash07/Auth-App"
+									target="_blank"
+									><i class="fa-solid fa-arrow-up-right-from-square"></i
+								></a>
+							</div>
+						</div>
+						<div class="work">
+							<img src="images/Cat-Dog-CNN.png" alt="workspace image" />
+							<div class="layer">
+								<h3>Cat-Dog Classifier</h3>
+								<p>
+									Machine learning model with 73% accuracy, integrated with
+									Streamlit for image predictions.
+								</p>
+								<a
+									href="https://huggingface.co/spaces/Mystic-Aakash/Cat-Dog-Image-Classifier-using-CNN"
+									target="_blank"
+									><i class="fa-solid fa-arrow-up-right-from-square"></i
+								></a>
+							</div>
+						</div>
+					</div>
+					<a
+						href="https://github.com/MysticAakash07?tab=repositories"
+						target="_blank"
+						class="btn"
+						>See more</a
+					>
+				</div>
+			</div>
+			<!-- -------------------------------contact--------------------- -->
+			<div id="contact">
+				<div class="container">
+					<div class="row">
+						<div class="contact-left">
+							<h1 class="sub-title">Contact Me</h1>
+							<p>
+								<i class="fa-solid fa-envelope"></i> rahulsagar460@gmail.com
+							</p>
+							<p><i class="fa-solid fa-phone"></i> 9410776480</p>
+							<div class="social-icons">
+								<a
+									href="https://www.facebook.com/aakash.sagar.10297/"
+									target="_blank"
+									><i class="fa-brands fa-facebook"></i
+								></a>
+								<a
+									href="https://www.instagram.com/mystic_aakash/"
+									target="_blank"
+									><i class="fa-brands fa-instagram"></i
+								></a>
+								<a
+									href="https://www.linkedin.com/in/mysticaakash/"
+									target="_blank"
+									><i class="fa-brands fa-linkedin"></i
+								></a>
+								<a href="https://leetcode.com/u/Mystic_Aakash/" target="_blank"
+									><i class="fa-solid fa-code"></i
+								></a>
+								<a href="https://github.com/MysticAakash07" target="_blank"
+									><i class="fa-brands fa-github"></i
+								></a>
+							</div>
+							<a href="images/my-cv.pdf" class="btn btn2" download
+								>Download CV</a
+							>
+						</div>
+						<div class="contact-right">
+							<form name="submit-to-google-sheet">
+								<input
+									type="text"
+									name="Name"
+									placeholder="Your Name"
+									required
+								/>
+								<input
+									type="email"
+									name="email"
+									placeholder="Your Email"
+									required
+								/>
+								<textarea
+									name="Message"
+									rows="6"
+									placeholder="Your Message"
+								></textarea>
+								<button type="submit" class="btn btn2">Submit</button>
+							</form>
+							<span id="msg"></span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+		<footer>
+			<div class="copyright">
+				<p>
+					&copy; 2024 Mystic. Made with <i class="fa-solid fa-heart"></i> by
+					Aakash | <a href="mailto:your@email.com">rahulsagar460@gmail.com</a>
+				</p>
+			</div>
+		</footer>
 
-    <script>
-        const scriptURL = 'https://script.google.com/macros/s/AKfycbw09fTHEE1eI9labXz_p7_iWL2lo0JMXX3_9arTfRO4qGuo_-6Wcw3h0qu2bEWErZuZZA/exec'
-        const form = document.forms['submit-to-google-sheet']
-        const msg = document.getElementById("msg")
-        form.addEventListener('submit', e => {
-          e.preventDefault()
-          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-            .then(response => { 
-                msg.innerHTML = "Message sent successfully!!"
-                setTimeout(function() {
-                    msg.innerHTML = ""
-                },3000)
-                form.reset()
-            })
-            .catch(error => console.error('Error!', error.message))
-        })
-      </script>
-</body>
+		<script>
+			const scriptURL =
+				"https://script.google.com/macros/s/AKfycbw09fTHEE1eI9labXz_p7_iWL2lo0JMXX3_9arTfRO4qGuo_-6Wcw3h0qu2bEWErZuZZA/exec";
+			const form = document.forms["submit-to-google-sheet"];
+			const msg = document.getElementById("msg");
+			form.addEventListener("submit", (e) => {
+				e.preventDefault();
+				fetch(scriptURL, { method: "POST", body: new FormData(form) })
+					.then((response) => {
+						msg.innerHTML = "Message sent successfully!!";
+						setTimeout(function () {
+							msg.innerHTML = "";
+						}, 3000);
+						form.reset();
+					})
+					.catch((error) => console.error("Error!", error.message));
+			});
+		</script>
+	</body>
 </html>
